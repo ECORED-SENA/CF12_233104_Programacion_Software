@@ -12,12 +12,12 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img01.png")
         .col-lg-8(data-aos="fade-left")
-          p Las hojas de estilo son el mecanismo mediante el cual se otorga a una página web su apariencia, para esto se crea un archivo nuevo con extensión .css que hace referencia a un tipo de archivo denominado CSS (#[em Style Sheet Cascade]) hojas de estilo en cascada. 
+          p Las hojas de estilo son el mecanismo mediante el cual se otorga a una página #[em web] su apariencia, para esto se crea un archivo nuevo con extensión .css que hace referencia a un tipo de archivo denominado CSS (#[em Style Sheet Cascade]) hojas de estilo en cascada. 
           .row.justify-content-center.mb-4
             .col-auto
               img(src="@/assets/curso/temas/img01.png")
             .col
-              p.mb-0 Estas hojas de estilo se escriben en un código que está compuesto por tags con sus atributos y los valores que adquieren estos atributos. La característica principal es que este código puede ser reutilizado sobre las páginas web en donde suelen repetirse las implementaciones de las mismas etiquetas; las hojas contribuyen a la facilidad de mantenimiento y control de varias páginas incluso de todo un sitio web.
+              p.mb-0 Estas hojas de estilo se escriben en un código que está compuesto por #[em tags] con sus atributos y los valores que adquieren estos atributos. La característica principal es que este código puede ser reutilizado sobre las páginas #[em web] en donde suelen repetirse las implementaciones de las mismas etiquetas; las hojas contribuyen a la facilidad de mantenimiento y control de varias páginas incluso de todo un sitio #[em web].
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -37,7 +37,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.BGR01C.p-4
-            p.mb-0.ms-5 Hojas de estilo según su manejo pueden ser internas, externas  o desde sitio web. Cuando es interna el código del estilo va incluido dentro de la página al ser externa se define en un archivo diferente a la a página con extensión CSS y si es desde otro sitio web se hace referencia por medio de su URL.
+            p.mb-0.ms-5 Hojas de estilo según su manejo pueden ser internas, externas  o desde sitio #[em web]. Cuando es interna el código del estilo va incluido dentro de la página al ser externa se define en un archivo diferente a la a página con extensión CSS y si es desde otro sitio #[em web] se hace referencia por medio de su URL.
 
     .BGR06.p-4.mb-4(data-aos="fade-right")
       .row.justify-content-around.align-items-center
@@ -61,7 +61,7 @@
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema2/img04.png")
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 CSS3 es la evolución de CSS y CSS2, esta nueva versión presenta como novedad mejoras que a grandes rasgos pueden dividirse en dos características; la primera es la aplicación del concepto de módulos que permite aproximar la definición del estilo de un sitio web a partir de la programación es decir donde se puede hacer para ello la analogía a los patrones de diseño que implementan algún controlador por lo que los módulos permiten definir contextos de aplicación de estilos e identificarlos en archivos diferentes (con extensión .less) que finalmente se integran en un archivo controlador, la segunda es la posibilidad de enriquecer los elementos que conforman las páginas directamente desde el estilo con animaciones, transiciones, layout con columnas, gradientes para modificar colores, transformaciones para rotar elementos así como también el ingreso de uso de fuente de texto externas por medio de librerías.
+        p.mb-0 CSS3 es la evolución de CSS y CSS2, esta nueva versión presenta como novedad mejoras que a grandes rasgos pueden dividirse en dos características; la primera es la aplicación del concepto de módulos que permite aproximar la definición del estilo de un sitio #[em web] a partir de la programación es decir donde se puede hacer para ello la analogía a los patrones de diseño que implementan algún controlador por lo que los módulos permiten definir contextos de aplicación de estilos e identificarlos en archivos diferentes (con extensión .less) que finalmente se integran en un archivo controlador, la segunda es la posibilidad de enriquecer los elementos que conforman las páginas directamente desde el estilo con animaciones, transiciones, #[em layout] con columnas, gradientes para modificar colores, transformaciones para rotar elementos así como también el ingreso de uso de fuente de texto externas por medio de librerías.
 
     AcordionA.mb-4(tipo="a" clase-tarjeta="BGR08")
       .row.justify-content-center(titulo="Ejemplo de estructura de uso de módulos")
@@ -93,13 +93,13 @@
       img(src="@/assets/curso/tema2/img05.png")
     .row.justify-content-center.img01(data-aos="flip-up")
       .col-lg-10.BGR09.p-4
-        p.mb-0 La estructura de CSS3 corresponde al conjunto de reglas recopiladas en un archivo; una regla a su vez corresponde a la utilización de algún tipo de selector como los que ya vimos en puntos anteriores y una o varias declaraciones separadas por punto y una (;)  la declaración se conforma de una propiedad y un valor; dichas declaraciones se pueden escribir de manera directa en el tag de HTML deseado utilizando el atributo style y entre comillas la propiedad los dos puntos y su valor. Ejemplo de estructura:
+        p.mb-0 La estructura de CSS3 corresponde al conjunto de reglas recopiladas en un archivo; una regla a su vez corresponde a la utilización de algún tipo de selector como los que ya vimos en puntos anteriores y una o varias declaraciones separadas por punto y una (;)  la declaración se conforma de una propiedad y un valor; dichas declaraciones se pueden escribir de manera directa en el #[em tag] de HTML deseado utilizando el atributo #[em style] y entre comillas la propiedad los dos puntos y su valor. Ejemplo de estructura:
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-8
         img(src="@/assets/curso/tema2/img06.svg")
     
-    p Con uso del atributo style:
+    p Con uso del atributo #[em style]:
 
     .row.justify-content-center.mb-4
       .col-lg-8.mb-lg-0.mb-4(data-aos="flip-up")
@@ -133,7 +133,7 @@
           .BG02.p-4
             p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">html</span>&gt;
               <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">head</span>&gt;
-              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="utf-8" /&gt; &lt;title&gt;Nuevos componentes&lt;/title&gt;
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">charset</span>=<span style="color:#3FD8CE !important">"utf-8"</span> /&gt; &lt;<span style="color:#FF0000 !important">title</span>&gt;Nuevos componentes&lt;/<span style="color:#FF0000 !important">title</span>&gt;
               <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span style="color:#FF0000 !important">head</span>&gt;
               <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">body</span>&gt;
               <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">form</span> <span style="color:#5573C6 !important">action</span>=<span style="color:#3FD8CE !important">"."</span> <span style="color:#5573C6 !important">oninput</span>=<span style="color:#3FD8CE !important">"range_control_value.value = range_control.valueAsNumber"</span>&gt;

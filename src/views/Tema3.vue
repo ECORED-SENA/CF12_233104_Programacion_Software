@@ -12,12 +12,12 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img01.png")
         .col-lg-8(data-aos="fade-left")
-          p Es un lenguaje de programación que se inserta en una página web que es interpretado por los navegadores el concepto de interpretado hace referencia a la ejecución secuencial línea por línea que hace el intérprete del navegador ante todo del lado cliente, aunque hoy en día también se logra del lado servidor con el apoyo Node.js el cual no es compilado como otros lenguaje de programación. 
+          p Es un lenguaje de programación que se inserta en una página #[em web] que es interpretado por los navegadores el concepto de interpretado hace referencia a la ejecución secuencial línea por línea que hace el intérprete del navegador ante todo del lado cliente, aunque hoy en día también se logra del lado servidor con el apoyo Node.js el cual no es compilado como otros lenguaje de programación. 
           .row.justify-content-center.mb-4
             .col-auto
               img(src="@/assets/curso/temas/img04.png")
             .col
-              p.mb-0 Este lenguaje está orientado a brindar posibilidades de construcción de código HTML de manera dinámica es decir el programa que se crea construye el conjunto de tags HTML de manera automática multiplicando de manera sustancial el enriquecimiento del diseño de las interfaces web.
+              p.mb-0 Este lenguaje está orientado a brindar posibilidades de construcción de código HTML de manera dinámica es decir el programa que se crea construye el conjunto de #[em tags] HTML de manera automática multiplicando de manera sustancial el enriquecimiento del diseño de las interfaces #[em web].
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -27,7 +27,7 @@
       .col-auto
         img(src="@/assets/curso/temas/img04.png")
       .col
-        p.mb-0 Es importante tener en cuenta que JavaScript y Java con lenguajes diferentes dado que por llevar el mismo nombre se puede presentar para confusiones; para insertar código JavaScript a un página web se puede hacer de las siguientes formas; con código que se agrega dentro de la misma página, con archivos independientes que se almacenan en rutas diferentes a la página y con código referenciado en otras páginas web ya publicadas en la red internet.
+        p.mb-0 Es importante tener en cuenta que JavaScript y Java con lenguajes diferentes dado que por llevar el mismo nombre se puede presentar para confusiones; para insertar código JavaScript a un página #[em web] se puede hacer de las siguientes formas; con código que se agrega dentro de la misma página, con archivos independientes que se almacenan en rutas diferentes a la página y con código referenciado en otras páginas #[em web] ya publicadas en la red #[em internet].
     
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -103,7 +103,7 @@
       img(src="@/assets/curso/tema3/img04.png")
     .row.justify-content-center.img01(data-aos="flip-up")
       .col-lg-10.BGR09.p-4
-        p.mb-0 El lenguaje Java Script aparece aproximadamente a mediados de los años noventa elaborado por Brendan Eich como una forma de mejorar la experiencia de usuario, puesto que en aquella época la velocidad de internet era de demasiado lenta y se requería de un lenguaje del lado cliente al momento de realizar una petición web al año siguiente 1996 se propuso determinar un estándar puesto que cada navegador lo interpreta a su manera y por eso surgió ECMA-262 Ed.1 ES1; la evolución del lenguaje muestra  en la siguiente tabla.
+        p.mb-0 El lenguaje Java Script aparece aproximadamente a mediados de los años noventa elaborado por Brendan Eich como una forma de mejorar la experiencia de usuario, puesto que en aquella época la velocidad de #[em internet] era de demasiado lenta y se requería de un lenguaje del lado cliente al momento de realizar una petición #[em web] al año siguiente 1996 se propuso determinar un estándar puesto que cada navegador lo interpreta a su manera y por eso surgió ECMA-262 Ed.1 ES1; la evolución del lenguaje muestra  en la siguiente tabla.
 
     .row.justify-content-center.mb-4
       .col-lg-7
@@ -135,7 +135,7 @@
                 td ES2
               tr
                 td 1999
-                td ES3 Moderno js baseline
+                td ES3 Moderno js #[em baseline]
               tr
                 td 2005
                 td Ajax Revolución
@@ -147,7 +147,7 @@
                 td ES5
               tr
                 td 2012 
-                td ES6 Under way
+                td ES6 #[em Under way]
               tr
                 td 2015 
                 td ES6
@@ -224,7 +224,7 @@
         LineaTiempoD.color-acento-botones
           .row.justify-content-center.align-items-center(numero="1" titulo="Variables numéricas")
             .col-lg-7.mb-lg-0.mb-4
-              p.mb-0 Se utilizan para definir variables enteras (integer) , reales (float), hexadecimal(0x) y octal(0).
+              p.mb-0 Se utilizan para definir variables enteras (#[em integer]) , reales (#[em float]), hexadecimal(0x) y octal(0).
             .col-lg-5.col-10
               img(src="@/assets/curso/tema3/img11.svg")
           .row.justify-content-center.align-items-center(numero="2" titulo="Variable de caracteres")
@@ -239,7 +239,7 @@
               img(src="@/assets/curso/tema3/img13.svg")
           .row.justify-content-center.align-items-center(numero="4" titulo="Variables tipo arreglo")
             .col-lg-7.mb-lg-0.mb-4
-              p.mb-0 Denominados también como matrices o vectores y se usan para definir variables que se relacionan en un mismo conjunto se definen entre corchetes [] separados por coma y valores entre comillas.
+              p.mb-0 Denominados también como matrices o vectores y se usan para definir variables que se relacionan en un mismo conjunto se definen entre corchetes [ ] separados por coma y valores entre comillas.
             .col-lg-5.col-10
               img(src="@/assets/curso/tema3/img14.svg")
           .row.justify-content-center.align-items-center(numero="5" titulo="Variables tipo objeto")
@@ -264,7 +264,7 @@
             .col-auto
               img(src="@/assets/curso/temas/img02.png")
             .col
-              p.mb-0 #[b Condicional if], el más conocido de los condicionales si se cumple la condición continúa ese camino la condición se escribe entre paréntesis después de la palabra reservada if.
+              p.mb-0 #[b Condicional #[em if]], el más conocido de los condicionales si se cumple la condición continúa ese camino la condición se escribe entre paréntesis después de la palabra reservada #[em if].
     
     .row.justify-content-center.mb-4
       .col-lg-5.col-10.order-lg-1.order-2.BG02.p-4(data-aos="fade-right")
@@ -284,8 +284,8 @@
         img(src="@/assets/curso/tema3/img18.svg")
       .col-lg-7(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          .row.justify-content-center(numero="1" titulo="Condicional if/else")
-            p Este condicional indica el camino alterno que puede seguir el programa en el caso de que no se cumpla la condición palabra reservada else.
+          .row.justify-content-center(numero="1" titulo="Condicional <em>if/else</em>")
+            p Este condicional indica el camino alterno que puede seguir el programa en el caso de que no se cumpla la condición palabra reservada #[em else].
             .row
               .col-auto
                 a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
@@ -293,23 +293,23 @@
                   i.fas.fa-expand-arrows-alt
                   .indicador--click(v-if="mostrarIndicador")
           .row.justify-content-center(numero="2" titulo="Operador ternario")
-            p Es una forma de escribir el condicional if/else, pero de una manera más corta se identifica con el símbolo?.
+            p Es una forma de escribir el condicional #[em if/else], pero de una manera más corta se identifica con el símbolo?.
             .row
               .col-auto
                 a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
                   span Ver código
                   i.fas.fa-expand-arrows-alt
                   .indicador--click(v-if="mostrarIndicador")
-          .row.justify-content-center(numero="3" titulo="Condicional if múltiple")
-            p Sirve para evaluar múltiples condiciones conservando la estructura del condicional if y para el caso alternativo se escribe la palabra reservada  if else acompaña de la nueva condición a cumplir.
+          .row.justify-content-center(numero="3" titulo="Condicional <em>if</em> múltiple")
+            p Sirve para evaluar múltiples condiciones conservando la estructura del condicional #[em if] y para el caso alternativo se escribe la palabra reservada  #[em if else] acompaña de la nueva condición a cumplir.
             .row
               .col-auto
                 a.boton.color-acento-contenido.indicador__container(@click="modal3 = true")
                   span Ver código
                   i.fas.fa-expand-arrows-alt
                   .indicador--click(v-if="mostrarIndicador")
-          .row.justify-content-center(numero="4" titulo="Condicional switch")
-            p Define casos específicos a realizar en el caso de que la variable expuesta como condición sea igual a los valores que se especifican mediante los case.
+          .row.justify-content-center(numero="4" titulo="Condicional <em>switch</em>")
+            p Define casos específicos a realizar en el caso de que la variable expuesta como condición sea igual a los valores que se especifican mediante los #[em case].
             .row
               .col-auto
                 a.boton.color-acento-contenido.indicador__container(@click="modal4 = true")
@@ -394,17 +394,17 @@
           img(src="@/assets/curso/tema3/img19.svg")
         .col-lg-8(data-aos="fade-left")
           .bloque-texto-a__texto.p-4
-            p.mb-0 #[b Bucles e Iteraciones], útiles para programar tareas que se convierten en repetitivas en donde se involucran gran cantidad de volumen de datos permitiendo su automatización para realizar un bucle, es necesario tener en cuenta los siguiente conceptos: la condición tal como se vio en los if, esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona un vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador esto es necesario evitarlo.
+            p.mb-0 #[b Bucles e Iteraciones], útiles para programar tareas que se convierten en repetitivas en donde se involucran gran cantidad de volumen de datos permitiendo su automatización para realizar un bucle, es necesario tener en cuenta los siguiente conceptos: la condición tal como se vio en los #[em if], esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona un vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador esto es necesario evitarlo.
     
     TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
-      .tarjeta.BGR10.p-4(titulo="Bucle While")
-        h4 Bucle While
+      .tarjeta.BGR10.p-4(titulo="Bucle <em>While</em>")
+        h4 Bucle #[em While]
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-lg-0.mb-4
             ul.lista-ul--color
               li
                 <i class="fas fa-layer-group" style="color:#F4A338;"></i>
-                | Antes de entrar en el bucle while, se inicializa la variable i a.
+                | Antes de entrar en el bucle #[em while], se inicializa la variable i a.
               li
                 <i class="fas fa-layer-group" style="color:#F4A338;"></i>
                 | Antes de realizar la primera iteración del bucle, se comprueba la condición.
@@ -422,10 +422,10 @@
                 | Cuando la condición sea falsa, se sale del bucle y continúa el programa.
           .col-lg-5.col-10
             img(src="@/assets/curso/tema3/img20.svg")
-      .tarjeta.BGR10(titulo="Bucle for")
+      .tarjeta.BGR10(titulo="Bucle <em>for</em>")
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-lg-0.mb-4.p-4
-            h4 Bucle for
+            h4 Bucle #[em for]
             img(src="@/assets/curso/tema3/img21.svg")
           .col-lg-7.col-10.pt-4
             img(src="@/assets/curso/tema3/img22.svg")
@@ -462,7 +462,7 @@
         h4 Eventos
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-7.mb-lg-0.mb-4
-            p La interacción del usuario con una aplicación, página o sitio web se establece como evento, por lo tanto un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación, por ejemplo darle clic en un botón o cambiar un valor de una elemento de texto entre otros.
+            p La interacción del usuario con una aplicación, página o sitio #[em web] se establece como evento, por lo tanto un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación, por ejemplo darle clic en un botón o cambiar un valor de una elemento de texto entre otros.
             p.mb-0 Estas acciones se capturan mediante manejadores de eventos ya establecidos y se programan mediante funciones en JavaScript.
           .col-lg-5.col-10
             img(src="@/assets/curso/tema3/img28.svg")

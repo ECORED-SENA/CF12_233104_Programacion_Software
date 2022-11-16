@@ -246,11 +246,11 @@ export default {
       significado: 'abreviación del estándar ECMA SCRIPT Versión 6.',
     },
     {
-      termino: 'Frontend',
+      termino: '<em>Frontend</em>',
       significado: 'capa de presentación de una aplicación web.',
     },
     {
-      termino: 'GET',
+      termino: '<em>GET</em>',
       significado: 'método de envío de datos por URL web.',
     },
     {
@@ -282,11 +282,11 @@ export default {
       significado: 'red de área metropolitana',
     },
     {
-      termino: 'Post',
+      termino: '<em>Post</em>',
       significado: 'método de envío de datos por formulario web.',
     },
     {
-      termino: 'Plugin',
+      termino: '<em>Plugin</em>',
       significado:
         'aplicación que extiende las funcionalidades de un componente.',
     },
@@ -427,8 +427,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

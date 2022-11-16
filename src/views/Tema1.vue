@@ -12,12 +12,12 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema1/img01.svg")
         .col-lg-8(data-aos="fade-left")
-          p Internet, en su contexto general, está programado por códigos internos, lo cuales cuando se accede a alguna página web, siempre le llegarán esos códigos al navegador y los traduce de modo, que visualmente  el usuario o cibernauta vea lo que el diseñador de la web ha creado para brindar información.
+          p #[em Internet], en su contexto general, está programado por códigos internos, lo cuales cuando se accede a alguna página #[em web], siempre le llegarán esos códigos al navegador y los traduce de modo, que visualmente  el usuario o cibernauta vea lo que el diseñador de la #[em web] ha creado para brindar información.
           .row.justify-content-center.mb-4
             .col-auto
               img.w-75(src="@/assets/curso/temas/img01.png")
             .col
-              p.mb-0 Al conjunto de característica de cada etiqueta y sus diferentes funcionalidades que han evolucionado en el tiempo se le llama HTML, que a fecha de hoy, ya va en la versión 5 y es regulado por el consorcio internacional W3C. El Consorcio WWW, #[em World Wide Web Consortium] (W3C), es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.
+              p.mb-0 Al conjunto de característica de cada etiqueta y sus diferentes funcionalidades que han evolucionado en el tiempo se le llama HTML, que a fecha de hoy, ya va en la versión 5 y es regulado por el consorcio internacional W3C. El Consorcio WWW, #[em World Wide Web Consortium] (W3C), es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la #[em World Wide Web] a largo plazo.
           p.mb-0 En el siguiente video, se podrá conocer un poco más de HTML 5:
 
     figure(data-aos="zoom-in")
@@ -26,7 +26,7 @@
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Etiquetas (Tags)
+      h2 1.1 Etiquetas (#[em Tags])
     
     .bloque-texto-a.color-acento-contenido.p-4.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -34,14 +34,14 @@
           img.wd75(src="@/assets/curso/tema1/img02.svg")
         .col-lg-8(data-aos="fade-left")
           .bloque-texto-a__texto.p-4
-            p.mb-0 Representan el conjunto de funcionalidades que se puede implementar en una página web y cuentan con una sintaxis de escritura, es decir, la forma correcta como se debe escribir y que debe cumplir con unos atributos y una interdependencia entre ellas, es decir, existen algunas etiquetas que, para su funcionamiento, dependen de otras estas etiquetas se conocen como etiquetas padre, a continuación un ejemplo:
+            p.mb-0 Representan el conjunto de funcionalidades que se puede implementar en una página #[em web] y cuentan con una sintaxis de escritura, es decir, la forma correcta como se debe escribir y que debe cumplir con unos atributos y una interdependencia entre ellas, es decir, existen algunas etiquetas que, para su funcionamiento, dependen de otras estas etiquetas se conocen como etiquetas padre, a continuación un ejemplo:
           
     p Las etiquetas padre mínimas con las que debe cumplir un archivo .html son las siguientes:
     
     .row.justify-content-center.mb-5
       .col-lg-10.BG02.p-4(data-aos="flip-up")
         p.text-white.mb-0.animation-1 &lt;<span style="color:#FF0000 !important">HTML</span>&gt; Indica el inicio del documento y que el documento está escrito en el lenguaje html.
-          <br> &lt;<span style="color:#FF0000 !important">HEAD</span>&gt; Es el encabezado de la página y esta información va orientada al browser.
+          <br> &lt;<span style="color:#FF0000 !important">HEAD</span>&gt; Es el encabezado de la página y esta información va orientada al #[em browser].
           <br> &lt;/<span style="color:#FF0000 !important">HEAD</span>&gt; indica el fin de la etiqueta head ambas etiquetas deben quedar dentro de la etiqueta padre html.
           <br> &lt;<span style="color:#FF0000 !important">BODY</span>&gt; Representa el cuerpo del contenido de la información que va a visualizar el usuario.
           <br> &lt;/<span style="color:#FF0000 !important">BODY</span>&gt; Indica el fin del cuerpo
@@ -70,7 +70,7 @@
                 p.text-white.mb-0 &lt;!<span style="color:#FF0000 !important">DOCTYPE</span> <span style="color:#5573C6 !important">html</span>&gt;
                   <br> &lt;<span style="color:#FF0000 !important">hmtl</span>&gt;
                   <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">head</span>&gt;
-                  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <----
+                  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#FF0000 !important">&lt;----</span>
                   <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span style="color:#FF0000 !important">head</span>&gt;
                   <br> &lt;/<span style="color:#FF0000 !important">hmtl</span>&gt;
             .row.justify-content-center.align-items-center(numero="4" titulo="&lt;body&gt;")
@@ -92,7 +92,7 @@
           .col-auto
             img(src="@/assets/curso/temas/img02.png")
           .col
-            p.mb-0 También se pueden encontrar algunas etiquetas que permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento, a continuación se presentan etiquetas que se utilizan con este fin al momento de construir el head o cabecera:
+            p.mb-0 También se pueden encontrar algunas etiquetas que permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento, a continuación se presentan etiquetas que se utilizan con este fin al momento de construir el #[em head] o cabecera:
 
     .BGIMG02.p-4.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")
@@ -105,9 +105,9 @@
               p.text-white &lt;!<span style="color:#FF0000 !important">DOCTYPE</span> <span style="color:#5573C6 !important">html</span>&gt;
                 <br> &lt;<span style="color:#FF0000 !important">hmtl</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">head</span>&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">meta</span> charset=“iso8859-1”&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">meta</span> name=“description” content=“Ejemplo de HTML5”&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">meta</span> name=“keywords” content=“HTML5, CSS3, Javascript”&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">charset</span>=<span style="color:#3FD8CE !important">“iso8859-1”</span>&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">name</span>=<span style="color:#3FD8CE !important">“description”</span> <span style="color:#5573C6 !important">content</span>=<span style="color:#3FD8CE !important">“Ejemplo de HTML5”</span>&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">name</span>=<span style="color:#3FD8CE !important">“keywords”</span> <span style="color:#5573C6 !important">content</span>=<span style="color:#3FD8CE !important">“HTML5, CSS3, Javascript”</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">head</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">body</span>&gt;
@@ -115,24 +115,24 @@
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
             .h4 ¿Qué aporta el atributo &lt;meta&gt;?
-            p Define otros aspectos al momento de mostrar un documento web. La forma correcta de escribir estas etiquetas y la forma de agregarlas a la estructura es dentro del bloque &lt;head&gt;&lt;/head&gt; del documento y se utilizará de forma global para todos los documentos HTML, enlazados al sitio o a la aplicación.
+            p Define otros aspectos al momento de mostrar un documento #[em web]. La forma correcta de escribir estas etiquetas y la forma de agregarlas a la estructura es dentro del bloque &lt;#[em head]&gt;&lt;/#[em head]&gt; del documento y se utilizará de forma global para todos los documentos HTML, enlazados al sitio o a la aplicación.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             .BG02.p-3
-              p.text-white <span style="color:#FF0000 !important">name</span>”description” 
-                <br> <span style="color:#FF0000 !important">content</span>=”Ejemplo de HTML5” y el name=”keywords” 
-                <br> <span style="color:#FF0000 !important">content</span>=”HTML5, CSS3, Javascript”
+              p.text-white <span style="color:#5573C6 !important">name</span>=<span style="color:#3FD8CE !important">”description”</span> 
+                <br> <span style="color:#5573C6 !important">content</span>=<span style="color:#3FD8CE !important">”Ejemplo de HTML5”</span> y el <span style="color:#5573C6 !important">name</span>=<span style="color:#3FD8CE !important">”keywords”</span> 
+                <br> <span style="color:#5573C6 !important">content</span>=<span style="color:#3FD8CE !important">”HTML5, CSS3, Javascript”</span>
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            .h4 Etiqueta &lt;title&gt;
-            p Esta etiqueta permite ponerle un título al documento, este título se mostrará en la pestaña del browser donde se despliega el documento HTML. 
+            .h4 Etiqueta &lt;#[em title]&gt;
+            p Esta etiqueta permite ponerle un título al documento, este título se mostrará en la pestaña del #[em browser] donde se despliega el documento HTML. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             .BG02.p-3
               p.text-white &lt;!<span style="color:#FF0000 !important">DOCTYPE</span> <span style="color:#5573C6 !important">html</span>&gt;
                 <br> &lt;<span style="color:#FF0000 !important">hmtl</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">head</span>&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> charset=“iso8859-1”&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> name=“description” content=“Ejemplo de HTML5”&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> name=“keywords” content=“HTML5, CSS3, Javascript”&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">charset</span><span style="color:#3FD8CE !important">=“iso8859-1”</span>&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">name</span><span style="color:#3FD8CE !important">=“description”</span> <span style="color:#5573C6 !important">content</span><span style="color:#3FD8CE !important">=“Ejemplo de HTML5”</span>&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">name</span><span style="color:#3FD8CE !important">=“keywords”</span> <span style="color:#5573C6 !important">content</span><span style="color:#3FD8CE !important">=“HTML5, CSS3, Javascript”</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="border: 2px solid #FF0000; padding: 2px">&lt; <span style="color:#FF0000 !important">title</span>&gt;Mi primer código html&lt;/<span style="color:#FF0000 !important">title</span>&gt;</span>
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">head</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
@@ -140,29 +140,29 @@
                 <br>&lt;/<span style="color:#FF0000 !important">hmtl</span>&gt;
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            .h4 Etiqueta &lt;link&gt;
-            p Esta etiqueta permite agregar estilo CSS y código JavaScript.
+            .h4 Etiqueta &lt;#[em link]&gt;
+            p Esta etiqueta permite agregar estilo CSS y código #[em JavaScript].
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             .BG02.p-3
               p.text-white &lt;!<span style="color:#FF0000 !important">DOCTYPE</span> <span style="color:#5573C6 !important">html</span>&gt;
                 <br> &lt;<span style="color:#FF0000 !important">hmtl</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">head</span>&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> charset=“iso8859-1”&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> name=“description” content=“Ejemplo de HTML5”&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> name=“keywords” content=“HTML5, CSS3, Javascript”&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">charset</span>=<span style="color:#4ADBD1 !important">“iso8859-1”</span>&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">name</span>=<span style="color:#4ADBD1 !important">“description”</span> <span style="color:#5573C6 !important">content</span>=<span style="color:#4ADBD1 !important">“Ejemplo de HTML5”</span>&gt;
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">meta</span> <span style="color:#5573C6 !important">name</span>=<span style="color:#4ADBD1 !important">“keywords”</span> <span style="color:#5573C6 !important">content</span>=<span style="color:#4ADBD1 !important">“HTML5, CSS3, Javascript”</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; <span style="color:#FF0000 !important">title</span>&gt;Mi primer código html&lt;/<span style="color:#FF0000 !important">title</span>&gt;
-                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="border: 2px solid #FF0000; padding: 2px">&lt; link rel=“<span style="color:#4ADBD1 !important">stylesheet</span>” href=“<span style="color:#4ADBD1 !important">miArchivoCss.css</span>”&gt;</span>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="border: 2px solid #FF0000; padding: 2px">&lt; <span style="color:#FF0000 !important">link</span> <span style="color:#5573C6 !important">rel</span>=“<span style="color:#4ADBD1 !important">stylesheet</span>” <span style="color:#5573C6 !important">href</span>=“<span style="color:#4ADBD1 !important">miArchivoCss.css</span>”&gt;</span>
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">head</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">body</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">hmtl</span>&gt;
 
-    p El cuerpo no es más que la estructura que se crea dentro del body, normalmente se le llama plantilla, pues permite enseñar de forma organizada por secciones la información que le llega al usuario.
+    p El cuerpo no es más que la estructura que se crea dentro del #[em body], normalmente se le llama plantilla, pues permite enseñar de forma organizada por secciones la información que le llega al usuario.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2
         .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-right")
-          p.mb-0 Estas son algunas estructuras del body que normalmente se utilizan y se identifican al momento de ingresar a un sitio web o a una aplicación web, estas estructuras pueden variar según el diseñador web pero, normalmente, se siguen algunos estándares:
+          p.mb-0 Estas son algunas estructuras del #[em body] que normalmente se utilizan y se identifican al momento de ingresar a un sitio #[em web] o a una aplicación #[em web], estas estructuras pueden variar según el diseñador #[em web] pero, normalmente, se siguen algunos estándares:
         .row.justify-content-center(data-aos="fade-right")
           .col-6
             ol.lista-ol--cuadro.lista-ol--separador
@@ -240,20 +240,20 @@
             figure
               img(src='@/assets/curso/tema1/img05.svg')
           .BGR05.p-3(x="2.65%" y="50%" numero="1")
-            .h5.mb-2 División de estructuras en el body
-            p.mb-0 Al momento de crear la estructura de la plantilla dentro del body se utilizan etiquetas que permiten dividir y estructurar las secciones del sitio, página o aplicación web.
+            .h5.mb-2 División de estructuras en el #[em body]
+            p.mb-0 Al momento de crear la estructura de la plantilla dentro del body se utilizan etiquetas que permiten dividir y estructurar las secciones del sitio, página o aplicación #[em web].
           .BGR05.p-3(x="13.9%" y="8.4%" numero="2")
-            .h5.mb-2 Etiqueta &lt;header&gt; 
-            p.mb-0 La etiqueta &lt;header&gt; se utiliza para la cabecera, teniendo en cuenta que la etiqueta &lt;head&gt; y &lt;header&gt; son totalmente diferentes.
+            .h5.mb-2 Etiqueta &lt;#[em header]&gt; 
+            p.mb-0 La etiqueta &lt;#[em header]&gt; se utiliza para la cabecera, teniendo en cuenta que la etiqueta &lt;#[em head]&gt; y &lt;#[em header]&gt; son totalmente diferentes.
           .BGR05.p-3(x="13.75%" y="20.7%" numero="3")
             .h5.mb-2 Etiqueta &lt;nav&gt;
             p.mb-0 &lt;nav&gt; es utilizada para colocar el menú de navegación.
           .BGR05.p-3(x="13.75%" y="33%" numero="4")
-            .h5.mb-2 Etiqueta &lt;section&gt;
-            p.mb-0 &lt;section&gt; es la sección que mostrará la información dependiendo de lo que se quiere mostrar.
+            .h5.mb-2 Etiqueta &lt;#[em section]&gt;
+            p.mb-0 &lt;#[em section]&gt; es la sección que mostrará la información dependiendo de lo que se quiere mostrar.
           .BGR05.p-3(x="75.8%" y="31.4%" numero="5")
-            .h5.mb-2 &lt;aside&gt;  y  &lt;footer&gt;
-            p.mb-0 &lt;aside&gt; es una sección que hace parte de la estructura del body y se puede utilizar para colocar información personal o enlaces importantes y por último el &lt;footer&gt;.
+            .h5.mb-2 &lt;#[em aside]&gt;  y  &lt;#[em footer]&gt;
+            p.mb-0 &lt;#[em aside]&gt; es una sección que hace parte de la estructura del #[em body] y se puede utilizar para colocar información personal o enlaces importantes y por último el &lt;#[em footer]&gt;.
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -263,12 +263,12 @@
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img06.png")
       .col-lg-8(data-aos="fade-left")
-        p La inclusión de texto en una página web nace de la necesidad de presentar información a los visitantes. Todo el texto que se incluya se debe presentar dentro de los tags padres antes descritos, dentro de ese orden de ideas, la recomendación es ordenar estos textos a manera de párrafos que vienen dado por la utilización de la etiqueta &lt;p&gt; y a continuación el texto que se quiere incluir y se cierra con la respectiva etiqueta de cierre&lt;/p&gt;. En función de lo planteado, se puede considerar que el conjunto de párrafos comprende todo el documento y los respectivos saltos de línea dentro de un texto viene dado por la etiqueta &lt;br/&gt;.
+        p La inclusión de texto en una página #[em web] nace de la necesidad de presentar información a los visitantes. Todo el texto que se incluya se debe presentar dentro de los #[em tags] padres antes descritos, dentro de ese orden de ideas, la recomendación es ordenar estos textos a manera de párrafos que vienen dado por la utilización de la etiqueta &lt;p&gt; y a continuación el texto que se quiere incluir y se cierra con la respectiva etiqueta de cierre&lt;/p&gt;. En función de lo planteado, se puede considerar que el conjunto de párrafos comprende todo el documento y los respectivos saltos de línea dentro de un texto viene dado por la etiqueta &lt;br/&gt;.
         p Otros elementos importantes para enriquecer un texto son los siguientes:
         ol.lista-ol--cuadro.lista-ol--separador
           li
             <i class="fas fa-check-circle" style="color:#4ADBD1"></i>
-            | &nbsp; &lt;blockquote/&gt;	Párrafo que en sí mismo corresponde a una cita de reseña.
+            p.mb-0 &nbsp; &lt;#[em blockquote]/&gt; Párrafo que en sí mismo corresponde a una cita de reseña.
           li
             <i class="fas fa-check-circle" style="color:#4ADBD1"></i>
             | &nbsp; &lt;q/&gt;		Cita contenido dentro de un texto.
@@ -277,7 +277,7 @@
             | &nbsp; &lt;em/&gt; 		Enfatizando el texto de un párrafo.
           li
             <i class="fas fa-check-circle" style="color:#4ADBD1"></i>
-            | &nbsp; &lt;strong/&gt;	Resaltado de texto.
+            p.mb-0 &nbsp; &lt;#[em strong]/&gt;	Resaltado de texto.
     
     .BGIMG03.p-md-5.p-4
       .row.justify-content-center
@@ -286,8 +286,8 @@
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">head</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">head</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mi primer texto en una página web que no es un párrafo &lt;/<span style="color:#FF0000 !important">br</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Mi primer párrafo página web&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mi primer texto en una página #[em web] que no es un párrafo &lt;/<span style="color:#FF0000 !important">br</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Mi primer párrafo página #[em web]&lt;/<span style="color:#FF0000 !important">p</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;<span style="color:#FF0000 !important">blockquote</span>&gt;MI PRIMER PÁRRAFO CITA EN UNA PAGINAWEB&lt;/<span style="color:#FF0000 !important">blockquote</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Siempre se dice que este es el mejor sitio para ver videos online 
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;<span style="color:#FF0000 !important">q</span> <span style="color:#5573C6 !important">cite</span>=<span style="color:#3FD8CE !important">“http://youtube.com/“</span>&gt;www.youtube.com&lt;/<span style="color:#FF0000 !important">q</span>&gt;
@@ -332,7 +332,7 @@
           .col-auto
             img(src="@/assets/curso/temas/img03.png")
           .col
-            .h5.mb-0 Otros atributos importantes para la etiqueta &lt;img&gt; son width y height que sirven para definir el ancho y el alto de la imagen dentro de la página web.
+            .h5.mb-0 Otros atributos importantes para la etiqueta &lt;img&gt; son #[em width] y #[em height] que sirven para definir el ancho y el alto de la imagen dentro de la página #[em web].
 
     .row.justify-content-center.mb-4
       .col-lg-8.BG02.p-4(data-aos="flip-up")
@@ -341,7 +341,7 @@
           <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">head</span>&gt;
           <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
           <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">img</span>&gt; <span style="color:#5573C6 !important">SRC</span>=<span style="color:#3FD8CE !important">“/misDocumentos/Imágenes/2301-03.png”</span>
-          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:#5573C6 !important"><span style="border: 2px solid #FF0000; padding: 2px">widht</span></span>=<span style="color:#3FD8CE !important">“50%”</span> <span style="color:#5573C6 !important"><span style="border: 2px solid #FF0000; padding: 2px">height</span></span>=<span style="color:#3FD8CE !important">“40%”</span>&gt;&lt;/<span style="color:#FF0000 !important">img</span>&gt;
+          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <span style="color:#5573C6 !important"><span style="border: 2px solid #FF0000; padding: 2px; color:#5573C6 !important">width</span></span>=<span style="color:#3FD8CE !important">“50%”</span> <span style="color:#5573C6 !important"><span style="border: 2px solid #FF0000; padding: 2px; color:#5573C6 !important">height</span></span>=<span style="color:#3FD8CE !important">“40%”</span>&gt;&lt;/<span style="color:#FF0000 !important">img</span>&gt;
           <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">body</span>&gt;
           <br>&lt;/<span style="color:#FF0000 !important">hmtl</span>&gt;
 
@@ -353,7 +353,7 @@
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img10.svg")
       .col-lg-7(data-aos="fade-left")
-        p Es la funcionalidad que permite navegar entre diferentes páginas web, es decir, poder desplazarse por donde el contenido HTML se ha almacenado en archivos con nombres diferentes, incluso almacenados en diversas carpetas donde también se puede navegar hacia otras páginas web ya publicadas en la red internet.
+        p Es la funcionalidad que permite navegar entre diferentes páginas #[em web], es decir, poder desplazarse por donde el contenido HTML se ha almacenado en archivos con nombres diferentes, incluso almacenados en diversas carpetas donde también se puede navegar hacia otras páginas #[em web] ya publicadas en la red #[em internet].
         .row.justify-content-center.mb-4
           .col-auto
             img(src="@/assets/curso/temas/img04.png")
@@ -411,35 +411,35 @@
             <br> &lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;&lt;<span style="color:#FF0000 !important">img</span> <span style="color:#1565C0 !important">src</span>=<span style="color:#3FD8CE !important">“/home/virtual/Escritorio/index.png/</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
             <br> &lt;/<span style="color:#FF0000 !important">div</span>&gt;
 
-    p Con la información anterior, se pueden crear enlaces y combinarlos a gusto, pero existe una propiedad que vale la pena nombrar y es la propiedad target.
+    p Con la información anterior, se pueden crear enlaces y combinarlos a gusto, pero existe una propiedad que vale la pena nombrar y es la propiedad #[em target].
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img12.svg")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          .row.justify-content-center(numero="1" titulo="Target")
+          .row.justify-content-center(numero="1" titulo="<em>Target</em>")
             p Permite que el enlace se despliegue de diferentes formas.
             img(src="@/assets/curso/tema1/img13.png")
-          .row.justify-content-center(numero="2" titulo="Blank")
+          .row.justify-content-center(numero="2" titulo="<em>Blank</em>")
             p Permite abrir el enlace en una nueva pestaña.
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_blank”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
-          .row.justify-content-center(numero="3" titulo="Self")
+          .row.justify-content-center(numero="3" titulo="<em>Self</em>")
             p El enlace se abre en el mismo elemento que contiene el enlace, puede ser la ventana completa o un elemento contenedor.
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_self”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
-          .row.justify-content-center(numero="4" titulo="Parent")
+          .row.justify-content-center(numero="4" titulo="<em>Parent</em>")
             p El enlace se abre en el elemento de nivel inmediatamente superior al que contiene el enlace.
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_parent”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
-          .row.justify-content-center(numero="5" titulo="Top")
+          .row.justify-content-center(numero="5" titulo="<em>Top</em>")
             p El enlace se abre en el elemento del nivel más alto (es decir, la ventana del navegador).
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
@@ -450,12 +450,12 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Tablas
 
-    p Las tablas son los componentes apropiados para organizar el contenido dentro de una página web en forma de matriz; es decir, con filas y columnas.
+    p Las tablas son los componentes apropiados para organizar el contenido dentro de una página #[em web] en forma de matriz; es decir, con filas y columnas.
 
     .BGIMG03.p-md-5.p-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-          p Para definir una tabla se debe usar la etiqueta &lt;table&gt; acto seguido se debe definir la cantidad de filas dentro de la tabla con la etiqueta &lt;tr&gt; y a su vez se debe definir dentro de la etiqueta &lt;td&gt; el número de columnas que se quieren manejar para presentar la información, al final cada ítem fila-columna se convierte en una celda de información.
+          p Para definir una tabla se debe usar la etiqueta &lt;#[em table]&gt; acto seguido se debe definir la cantidad de filas dentro de la tabla con la etiqueta &lt;tr&gt; y a su vez se debe definir dentro de la etiqueta &lt;td&gt; el número de columnas que se quieren manejar para presentar la información, al final cada ítem fila-columna se convierte en una celda de información.
           .cajon.color-acento-botones.p-4
             p.mb-0 #[b Ejemplo]: el siguiente código define una tabla de datos con dos filas y tres columnas, el contenido de cada celda puede variar bien sea en su texto, hiperenlaces, imágenes u otros elementos.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-lg-0.mb-4(data-aos="fade-left")
@@ -498,7 +498,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1.text-white Textos
+              h4.mb-1.text-white Tablas
               p.text-white Estimado aprendiz a continuación descargar el siguiente documento para su consulta.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo_4.pdf')" target="_blank")
@@ -538,9 +538,9 @@
           .col-auto
             img(src="@/assets/curso/temas/img04.png")
           .col
-            p.mb-0 El tag que representa un formulario se denomina &lt;form&gt; y debe ser acompañado de los siguientes atributos  action que permite llegar al sitio destino que va a recibir los datos y método que permite definir el tipo de método que puede recibir los datos bien sea post o get.
+            p.mb-0 El #[em tag] que representa un formulario se denomina &lt;#[em form]&gt; y debe ser acompañado de los siguientes atributos  action que permite llegar al sitio destino que va a recibir los datos y método que permite definir el tipo de método que puede recibir los datos bien sea #[em post] o #[em get].
         .cajon.color-acento-botones.p-4(data-aos="fade-left")
-          p.mb-0 A continuación, se describen algunos tags que comúnmente conforman un formulario estos se deben encerrar dentro la etiqueta principal  del formulario &lt;form&gt;.
+          p.mb-0 A continuación, se describen algunos #[em tags] que comúnmente conforman un formulario estos se deben encerrar dentro la etiqueta principal  del formulario &lt;#[em form]&gt;.
     
     .BGIMG03.p-md-5.p-4
       .row.justify-content-center.mb-4
@@ -549,14 +549,14 @@
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.BGR01A.p-4
-              .h4.ms-5 &lt;input&gt;
-              p.mb-0.ms-5 Entrada de datos estas pueden ser texto, número  o alfanumérico sus atributos más importantes son type para definir el tipo de entrada que puede ser text, radio, submit, reset, el atributo id permite identificar de manera única el objeto en el archivo HTML, el atributo name es para darle un nombre a la entrada o variable y value para recibir el dato del componente. 
+              .h4.ms-5 &lt;#[em input]&gt;
+              p.mb-0.ms-5 Entrada de datos estas pueden ser texto, número  o alfanumérico sus atributos más importantes son #[em type] para definir el tipo de entrada que puede ser #[em text], radio, #[em submit], reset, el atributo id permite identificar de manera única el objeto en el archivo HTML, el atributo name es para darle un nombre a la entrada o variable y value para recibir el dato del componente. 
         .col-lg-6.col-10(data-aos="fade-left")
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.BGR01B.p-4
-              .h4.ms-5 &lt;label&gt;
+              .h4.ms-5 &lt;#[em label]&gt;
               p.mb-0.ms-5 Permite la definición de un nombre para una entrada de datos.
 
       .row.justify-content-center.mb-4
