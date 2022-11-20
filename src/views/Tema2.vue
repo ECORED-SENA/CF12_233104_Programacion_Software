@@ -14,7 +14,7 @@
         .col-lg-8(data-aos="fade-left")
           p Las hojas de estilo son el mecanismo mediante el cual se otorga a una página #[em web] su apariencia, para esto se crea un archivo nuevo con extensión .css que hace referencia a un tipo de archivo denominado CSS (#[em Style Sheet Cascade]) hojas de estilo en cascada. 
           .row.justify-content-center.mb-4
-            .col-auto
+            .col-auto.d-none.d-lg-flex
               img(src="@/assets/curso/temas/img01.png")
             .col
               p.mb-0 Estas hojas de estilo se escriben en un código que está compuesto por #[em tags] con sus atributos y los valores que adquieren estos atributos. La característica principal es que este código puede ser reutilizado sobre las páginas #[em web] en donde suelen repetirse las implementaciones de las mismas etiquetas; las hojas contribuyen a la facilidad de mantenimiento y control de varias páginas incluso de todo un sitio #[em web].
@@ -106,8 +106,8 @@
         .BG02.p-4
           p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">html</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">head</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">title</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span style="color:#FF0000 !important">title</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">title</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span style="color:#FF0000 !important">title</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span style="color:#FF0000 !important">head</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">body</span>&gt; 
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">h1</span> <span style="color:#5573C6 !important">style</span>=<span style="color:#3FD8CE !important">”color:red; size:30 px”</span>&gt;Texto1&lt;<span style="color:#FF0000 !important">/h1</span>&gt;
@@ -177,7 +177,7 @@
           .col-auto.px-0
             img(src="@/assets/curso/tema1/img07.png")
           .col.BGRS04.p-2
-            a.boton.color-acento-contenido.mb-0.ms-5(:href="obtenerLink('/downloads/pagina04.html')" target="_blank")
+            a.boton.color-acento-contenido.mb-0(:href="obtenerLink('/downloads/pagina04.html')" target="_blank")
               span #[b El resultado de la ejecución del código anterior se puede visualizar a continuación:]
               .indicador--click(v-if="mostrarIndicador")
     

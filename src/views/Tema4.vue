@@ -48,13 +48,13 @@
           .row.justify-content-center(numero="6" titulo="Flujos de trabajo")
             p Hace referencia a la posibilidad de definir responsabilidades dentro del grupo humano que contribuye en la administración del gestor de contenidos donde, normalmente, se encuentran dos perfiles, el perfil que genera el contenido y lo publica al CMS o gestor de contenidos y al perfil que revisa y aprueba el contenido y que finalmente lo hace  público.
             p.mb-0 Los CMS ofrecen flujos de trabajo de aprobación un poco complejos en los que estos dos perfiles puedan realizar el procedimiento de publicación de contenidos.
-      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img03.svg")
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5.order-lg-1.order-2(data-aos="fade-right")
+      .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema4/img04.svg")
-      .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="7" titulo="Comentarios")
             p.mb-0 Mucho del contenido que se sirve es susceptible de ser comentado. De esta manera, casi todos los sistemas CMS o gestores de contenidos llevan incluido un sistema de gestión de comentarios dónde se podrá validar el autor del comentario, así como hacer una administración de los mismos. 
@@ -72,7 +72,7 @@
     .row.mb-4(data-aos="zoom-in")
       .col-lg-12.d-none.d-lg-flex
         img(src="@/assets/curso/tema4/img05.svg")
-      .col-lg-12.d-lg-none.d-flex
+      .col-lg-12.col-md-8.col-sm-10.d-lg-none.d-flex
         img(src="@/assets/curso/tema4/img06.svg")
     
     separador
@@ -81,47 +81,47 @@
     
     .BGM01.px-md-5.px-4.mb-4
       .row.justify-content-center.align-items-end
-        .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
+        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema4/img07.png")
         .col-lg-8.pt-2(data-aos="fade-left")
-          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-            .BGR11
+          SlyderF(columnas="col-lg-6 col-xl-4")
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img08.svg' alt='AvatarTop')
               .p-4
                 p.text-center El #[em frontend], corresponde a la parte visible del CMS para los usuarios que acceden como  invitados o  usuarios registrados.
-            .BGR11
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img09.svg' alt='AvatarTop')
               .p-4
                 p.text-center Conformación modular para la configuración y personalización de los sitios #[em web]
-            .BGR11
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img10.svg' alt='AvatarTop')
               .p-4
                 p.text-center Administración de usuarios, roles, perfiles y permisos de acceso.
-            .BGR11
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img11.svg' alt='AvatarTop')
               .p-4
                 p.text-center Componentes para la creación, edición, publicación de contenidos.
-            .BGR11
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img12.svg' alt='AvatarTop')
               .p-4
                 p.text-center Plantillas para distribuir y mantener el diseño del sitio #[em web].
-            .BGR11
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img13.svg' alt='AvatarTop')
               .p-4
                 p.text-center Posibilidad de extensiones que complementan las funcionalidades en el gestor de contenidos.
-            .BGR11
+            .BGR11.m-2
               .row.justify-content-center.pt-1
                 .col-8.img02
                   img(src='@/assets/curso/tema4/img14.svg' alt='AvatarTop')

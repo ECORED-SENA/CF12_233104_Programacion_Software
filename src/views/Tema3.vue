@@ -14,7 +14,7 @@
         .col-lg-8(data-aos="fade-left")
           p Es un lenguaje de programación que se inserta en una página #[em web] que es interpretado por los navegadores el concepto de interpretado hace referencia a la ejecución secuencial línea por línea que hace el intérprete del navegador ante todo del lado cliente, aunque hoy en día también se logra del lado servidor con el apoyo Node.js el cual no es compilado como otros lenguaje de programación. 
           .row.justify-content-center.mb-4
-            .col-auto
+            .col-auto.d-none.d-lg-flex
               img(src="@/assets/curso/temas/img04.png")
             .col
               p.mb-0 Este lenguaje está orientado a brindar posibilidades de construcción de código HTML de manera dinámica es decir el programa que se crea construye el conjunto de #[em tags] HTML de manera automática multiplicando de manera sustancial el enriquecimiento del diseño de las interfaces #[em web].
@@ -24,7 +24,7 @@
       h2 3.1 Introducción
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
-      .col-auto
+      .col-auto.d-none.d-lg-flex
         img(src="@/assets/curso/temas/img04.png")
       .col
         p.mb-0 Es importante tener en cuenta que JavaScript y Java con lenguajes diferentes dado que por llevar el mismo nombre se puede presentar para confusiones; para insertar código JavaScript a un página #[em web] se puede hacer de las siguientes formas; con código que se agrega dentro de la misma página, con archivos independientes que se almacenan en rutas diferentes a la página y con código referenciado en otras páginas #[em web] ya publicadas en la red #[em internet].
@@ -91,7 +91,7 @@
           .col-auto.px-0
             img(src="@/assets/curso/tema1/img07.png")
           .col.BGRS04.p-2
-            a.boton.color-acento-contenido.mb-0.ms-5(:href="obtenerLink('/downloads/pagina05.html')" target="_blank")
+            a.boton.color-acento-contenido.mb-0(:href="obtenerLink('/downloads/pagina05.html')" target="_blank")
               span #[b El resultado de la ejecución del código anterior se puede visualizar a continuación:]
               .indicador--click(v-if="mostrarIndicador")
 
@@ -172,7 +172,7 @@
       h2 3.3 Sintaxis 
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
-      .col-auto
+      .col-auto.d-none.d-lg-flex
         img(src="@/assets/curso/temas/img04.png")
       .col
         p.mb-0 En JavaScript existe un conjunto de elementos que permiten conformar un programa, variables, constantes, operadores, expresiones que corresponden a  una forma de combinación de variables, constantes y operadores, sentencias encargadas de guardar un orden lógico y funciones como el conjunto de sentencias que permiten  resolver un problema; para todos estos elementos existe una serie de reglas que se deben cumplir al momento de escribir el código así:
@@ -261,7 +261,7 @@
         .col-lg-8(data-aos="fade-left")
           p Cuando se hace un programa JavaScript las líneas de código se ejecutan de manera secuencial es decir primera, segunda, tercera, cuarta, etc., pero nunca cuarta y luego tercera siempre se enumeran de arriba hacia abajo correspondiendo esto con el flujo del programa; durante este flujo en algún punto de las secuencias es necesario tomar una decisión y es ahí donde se debe utilizar el concepto de condicionales con respuesta positiva o negativa. En otro punto del programa se necesitará realizar a recorridos a estructuras de datos por ejemplo un arreglo y para ello se utilizará el concepto de bucle.
           .row.align-items-center.mb-4
-            .col-auto
+            .col-auto.d-none.d-lg-flex
               img(src="@/assets/curso/temas/img02.png")
             .col
               p.mb-0 #[b Condicional #[em if]], el más conocido de los condicionales si se cumple la condición continúa ese camino la condición se escribe entre paréntesis después de la palabra reservada #[em if].
@@ -464,7 +464,7 @@
           .col-lg-7.mb-lg-0.mb-4
             p La interacción del usuario con una aplicación, página o sitio #[em web] se establece como evento, por lo tanto un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación, por ejemplo darle clic en un botón o cambiar un valor de una elemento de texto entre otros.
             p.mb-0 Estas acciones se capturan mediante manejadores de eventos ya establecidos y se programan mediante funciones en JavaScript.
-          .col-lg-5.col-10
+          .col-lg-5
             img(src="@/assets/curso/tema3/img28.svg")
         .BGR06.p-4.mb-4
           .row.justify-content-around.align-items-center
