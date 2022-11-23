@@ -15,7 +15,8 @@
           p #[em Internet], en su contexto general, está programado por códigos internos, lo cuales cuando se accede a alguna página #[em web], siempre le llegarán esos códigos al navegador y los traduce de modo, que visualmente  el usuario o cibernauta vea lo que el diseñador de la #[em web] ha creado para brindar información.
           .row.justify-content-center.mb-4
             .col-auto.d-none.d-lg-flex
-              img.w-75(src="@/assets/curso/temas/img01.png")
+              figure
+                img(src="@/assets/curso/temas/img01.png")
             .col
               p.mb-0 Al conjunto de característica de cada etiqueta y sus diferentes funcionalidades que han evolucionado en el tiempo se le llama HTML, que a fecha de hoy, ya va en la versión 5 y es regulado por el consorcio internacional W3C. <span style="background-color:#F5D6AD; padding: 2px">El Consorcio WWW, #[em World Wide Web Consortium] (W3C), es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la #[em World Wide Web] a largo plazo.</span>
           p.mb-0 En el siguiente video, se podrá conocer un poco más de HTML 5:

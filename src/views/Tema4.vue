@@ -83,47 +83,47 @@
       .row.justify-content-center.align-items-end
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema4/img07.png")
-        .col-lg-8.pt-2(data-aos="fade-left")
+        .col-lg-8.p-3(data-aos="fade-left")
           SlyderF(columnas="col-lg-6 col-xl-4")
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img08.svg' alt='AvatarTop')
               .p-4
                 p.text-center El #[em frontend], corresponde a la parte visible del CMS para los usuarios que acceden como  invitados o  usuarios registrados.
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img09.svg' alt='AvatarTop')
               .p-4
                 p.text-center Conformación modular para la configuración y personalización de los sitios #[em web]
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img10.svg' alt='AvatarTop')
               .p-4
                 p.text-center Administración de usuarios, roles, perfiles y permisos de acceso.
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img11.svg' alt='AvatarTop')
               .p-4
                 p.text-center Componentes para la creación, edición, publicación de contenidos.
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img12.svg' alt='AvatarTop')
               .p-4
                 p.text-center Plantillas para distribuir y mantener el diseño del sitio #[em web].
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img13.svg' alt='AvatarTop')
               .p-4
                 p.text-center Posibilidad de extensiones que complementan las funcionalidades en el gestor de contenidos.
             .BGR11.m-2
               .row.justify-content-center.pt-1
-                .col-8.img02
+                .col-lg-8.col-md-4.col-5.img02
                   img(src='@/assets/curso/tema4/img14.svg' alt='AvatarTop')
               .p-4
                 p.text-center Características de manejo de  internacionalización en varios idiomas.

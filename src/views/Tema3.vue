@@ -468,11 +468,11 @@
             img(src="@/assets/curso/tema3/img28.svg")
         .BGR06.p-4.mb-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-md-2.col-3
               img.w-75(src="@/assets/curso/tema1/img08.png")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
+                .col-md.mb-md-0.mb-3
                   h4.mb-1.text-white Relación entre CSS y HTML
                   p.text-white Estimado aprendiz a continuación descargar el siguiente documento para su consulta.
                 .col-sm-auto
