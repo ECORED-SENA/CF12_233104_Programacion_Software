@@ -12,7 +12,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema1/img01.svg")
         .col-lg-8(data-aos="fade-left")
-          p #[em Internet], en su contexto general, está programado por códigos internos, lo cuales cuando se accede a alguna página #[em web], siempre le llegarán esos códigos al navegador y los traduce de modo, que visualmente  el usuario o cibernauta vea lo que el diseñador de la #[em web] ha creado para brindar información.
+          p #[em Internet], en su contexto general, está programado por códigos internos, los cuales, cuando se accede a alguna página #[em web], siempre le llegarán esos códigos al navegador y los traduce de modo que visualmente  el usuario o cibernauta vea lo que el diseñador de la #[em web] ha creado para brindar información.
           .row.justify-content-center.mb-4
             .col-auto.d-none.d-lg-flex
               figure
@@ -35,7 +35,7 @@
           img.wd75(src="@/assets/curso/tema1/img02.svg")
         .col-lg-8(data-aos="fade-left")
           .bloque-texto-a__texto.p-4
-            p.mb-0 Representan el conjunto de funcionalidades que se puede implementar en una página #[em web] y cuentan con una sintaxis de escritura, es decir, la forma correcta como se debe escribir y que debe cumplir con unos atributos y una interdependencia entre ellas, es decir, existen algunas etiquetas que, para su funcionamiento, dependen de otras estas etiquetas se conocen como etiquetas padre, a continuación un ejemplo:
+            p.mb-0 Representan el conjunto de funcionalidades que se puede implementar en una página #[em web] y cuentan con una sintaxis de escritura, es decir, la forma correcta como se debe escribir y que debe cumplir con unos atributos y una interdependencia entre ellas, es decir, existen algunas etiquetas que, para su funcionamiento, dependen de otras; estas etiquetas se conocen como etiquetas padre, a continuación un ejemplo:
           
     p Las etiquetas padre mínimas con las que debe cumplir un archivo .html son las siguientes:
     
@@ -43,7 +43,7 @@
       .col-lg-10.BG02.p-4(data-aos="flip-up")
         p.text-white.mb-0.animation-1 &lt;<span style="color:#FF0000 !important">HTML</span>&gt; Indica el inicio del documento y que el documento está escrito en el lenguaje html.
           <br> &lt;<span style="color:#FF0000 !important">HEAD</span>&gt; Es el encabezado de la página y esta información va orientada al #[em browser].
-          <br> &lt;/<span style="color:#FF0000 !important">HEAD</span>&gt; indica el fin de la etiqueta head ambas etiquetas deben quedar dentro de la etiqueta padre html.
+          <br> &lt;/<span style="color:#FF0000 !important">HEAD</span>&gt; Indica el fin de la etiqueta head ambas etiquetas deben quedar dentro de la etiqueta padre html.
           <br> &lt;<span style="color:#FF0000 !important">BODY</span>&gt; Representa el cuerpo del contenido de la información que va a visualizar el usuario.
           <br> &lt;/<span style="color:#FF0000 !important">BODY</span>&gt; Indica el fin del cuerpo
           <br> &lt;/<span style="color:#FF0000 !important">HTML</span>&gt; Indica el final del documento html 
@@ -203,14 +203,14 @@
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">head</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">header</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">h1</span>&gt;mi pagina web&lt;/<span style="color:#FF0000 !important">h1</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">h1</span>&gt;mi página web&lt;/<span style="color:#FF0000 !important">h1</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">header</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">nav</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">ul</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;home&lt;/<span style="color:#FF0000 !important">li</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;menu 1&lt;/<span style="color:#FF0000 !important">li</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;menu 2&lt;/<span style="color:#FF0000 !important">li</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;menu 3&lt;/<span style="color:#FF0000 !important">li</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;menú 1&lt;/<span style="color:#FF0000 !important">li</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;menú 2&lt;/<span style="color:#FF0000 !important">li</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">li</span>&gt;menú 3&lt;/<span style="color:#FF0000 !important">li</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">ul</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/<span style="color:#FF0000 !important">nav</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">section</span>&gt;
@@ -264,7 +264,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img06.png")
       .col-lg-8(data-aos="fade-left")
-        p La inclusión de texto en una página #[em web] nace de la necesidad de presentar información a los visitantes. Todo el texto que se incluya se debe presentar dentro de los #[em tags] padres antes descritos, dentro de ese orden de ideas, la recomendación es ordenar estos textos a manera de párrafos que vienen dado por la utilización de la etiqueta &lt;p&gt; y a continuación el texto que se quiere incluir y se cierra con la respectiva etiqueta de cierre&lt;/p&gt;. En función de lo planteado, se puede considerar que el conjunto de párrafos comprende todo el documento y los respectivos saltos de línea dentro de un texto viene dado por la etiqueta &lt;br/&gt;.
+        p La inclusión de texto en una página #[em web] nace de la necesidad de presentar información a los visitantes. Todo el texto que se incluya se debe presentar dentro de los #[em tags] padres antes descritos, dentro de ese orden de ideas, la recomendación es ordenar estos textos a manera de párrafos que vienen dados por la utilización de la etiqueta &lt;p&gt; y a continuación el texto que se quiere incluir y se cierra con la respectiva etiqueta de cierre&lt;/p&gt;. En función de lo planteado, se puede considerar que el conjunto de párrafos comprende todo el documento y los respectivos saltos de línea dentro de un texto viene dado por la etiqueta &lt;br/&gt;.
         p Otros elementos importantes para enriquecer un texto son los siguientes:
         ol.lista-ol--cuadro.lista-ol--separador
           li
@@ -289,7 +289,7 @@
             <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">body</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mi primer texto en una página #[em web] que no es un párrafo &lt;/<span style="color:#FF0000 !important">br</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Mi primer párrafo página #[em web]&lt;/<span style="color:#FF0000 !important">p</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;<span style="color:#FF0000 !important">blockquote</span>&gt;MI PRIMER PÁRRAFO CITA EN UNA PAGINAWEB&lt;/<span style="color:#FF0000 !important">blockquote</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;<span style="color:#FF0000 !important">blockquote</span>&gt;MI PRIMER PÁRRAFO CITA EN UNA PÁGINA WEB&lt;/<span style="color:#FF0000 !important">blockquote</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Siempre se dice que este es el mejor sitio para ver videos online 
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;<span style="color:#FF0000 !important">q</span> <span style="color:#95AFF9 !important">cite</span>=<span style="color:#3FD8CE !important">“http://youtube.com/“</span>&gt;www.youtube.com&lt;/<span style="color:#FF0000 !important">q</span>&gt;
             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;
@@ -376,10 +376,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
-          p.mb-0 Para ingresar a Sofia Plus de clic <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">aquí</a>
+          p.mb-0 Para ingresar a Sofia Plus dé clic <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">aquí</a>
         .BG02.p-4.mb-4(data-aos="flip-up")
           p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#95AFF9 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#95AFF9 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
             <br> &lt;<span style="color:#FF0000 !important">div</span>&gt;
         p Los enlaces se pueden crear combinando algunos comportamientos y atributos para mejorar la experiencia.
         .row.mb-4(data-aos="fade-right")
@@ -388,14 +388,14 @@
         p El desarrollador puede utilizar la etiqueta &lt;p&gt; que permite colocar un párrafo en el documento y puede agregar un enlace en cualquier parte del párrafo, al inicio, al final o en el medio.
         .BG02.p-4.mb-4(data-aos="flip-up")
           p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt; &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;Para&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;ingresar a sofia plus de clic aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt; Para ingresar a &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;sofia/a>&lt;/<span style="color:#FF0000 !important">p</span>&gt;plus de clic aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt; &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;Para&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;ingresar a sofia plus dé clic aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt; Para ingresar a &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;sofia/a>&lt;/<span style="color:#FF0000 !important">p</span>&gt;plus dé clic aquí&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
             <br> &lt;/<span style="color:#FF0000 !important">div</span>&gt;
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
-          p Para ingresar a Sofia Plus de clic <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">aquí</a>
-          p <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Para</a> ingresar a Sofia Plus de clic aquí
-          p.mb-0 Para ingresar a <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Sofia</a> Plus de clic aquí
+          p Para ingresar a Sofia Plus dé clic <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">aquí</a>
+          p <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Para</a> ingresar a Sofia Plus dé clic aquí
+          p.mb-0 Para ingresar a <a style="color:#1565C0 !important; border: 2px solid #FF0000; padding: 2px" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Sofia</a> Plus dé clic aquí
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img11.png")
 
@@ -409,7 +409,7 @@
       .col-lg-9
         .BG02.p-4.mb-4(data-aos="flip-up")
           p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-            <br> &lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;&lt;<span style="color:#FF0000 !important">img</span> <span style="color:#1565C0 !important">src</span>=<span style="color:#3FD8CE !important">“/home/virtual/Escritorio/index.png/</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+            <br> &lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span>&gt;&lt;<span style="color:#FF0000 !important">img</span> <span style="color:#1565C0 !important">src</span>=<span style="color:#3FD8CE !important">“/home/virtual/Escritorio/index.png/</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
             <br> &lt;/<span style="color:#FF0000 !important">div</span>&gt;
 
     p Con la información anterior, se pueden crear enlaces y combinarlos a gusto, pero existe una propiedad que vale la pena nombrar y es la propiedad #[em target].
@@ -426,25 +426,25 @@
             p Permite abrir el enlace en una nueva pestaña.
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_blank”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_blank”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
           .row.justify-content-center(numero="3" titulo="<em>Self</em>")
             p El enlace se abre en el mismo elemento que contiene el enlace, puede ser la ventana completa o un elemento contenedor.
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_self”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_self”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
           .row.justify-content-center(numero="4" titulo="<em>Parent</em>")
             p El enlace se abre en el elemento de nivel inmediatamente superior al que contiene el enlace.
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_parent”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_parent”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
           .row.justify-content-center(numero="5" titulo="<em>Top</em>")
             p El enlace se abre en el elemento del nivel más alto (es decir, la ventana del navegador).
             .BG02.p-4.mb-4(data-aos="flip-up")
               p.text-white.mb-0 &lt;<span style="color:#FF0000 !important">div</span>&gt;
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus de clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_top”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span style="color:#FF0000 !important">p</span>&gt;Para ingresar a sofia plus dé clic &lt;<span style="color:#FF0000 !important">a</span> <span style="color:#1565C0 !important">href</span>=<span style="color:#3FD8CE !important">“http://oferta.senasofiaplus.edu.co/sofia-oferta/“</span> <span style="color:#1565C0 !important">target</span>=<span style="color:#3FD8CE !important">“_top”</span>&gt;&lt;/<span style="color:#FF0000 !important">a</span>&gt;&lt;/<span style="color:#FF0000 !important">p</span>&gt;
                 <br>&lt;/<span style="color:#FF0000 !important">div</span>&gt;
 
     separador

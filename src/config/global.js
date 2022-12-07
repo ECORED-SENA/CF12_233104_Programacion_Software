@@ -141,7 +141,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Gestores de contenido',
+        titulo: 'Gestores de Contenido CMS',
         desarrolloContenidos: true,
         subMenu: [
           {

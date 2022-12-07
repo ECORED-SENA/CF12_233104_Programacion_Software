@@ -12,7 +12,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img01.png")
         .col-lg-8(data-aos="fade-left")
-          p Es un lenguaje de programación que se inserta en una página #[em web] que es interpretado por los navegadores el concepto de interpretado hace referencia a la ejecución secuencial línea por línea que hace el intérprete del navegador ante todo del lado cliente, aunque hoy en día también se logra del lado servidor con el apoyo Node.js el cual no es compilado como otros lenguaje de programación. 
+          p Es un lenguaje de programación que se inserta en una página #[em web] que es interpretado por los navegadores, el concepto de interpretado hace referencia a la ejecución secuencial línea por línea que hace el intérprete del navegador ante todo del lado cliente, aunque hoy en día también se logra del lado servidor con el apoyo de Node.js el cual no es compilado como otros lenguaje de programación. 
           .row.justify-content-center.mb-4
             .col-auto.d-none.d-lg-flex
               img(src="@/assets/curso/temas/img04.png")
@@ -27,7 +27,7 @@
       .col-auto.d-none.d-lg-flex
         img(src="@/assets/curso/temas/img04.png")
       .col
-        p.mb-0 Es importante tener en cuenta que JavaScript y Java con lenguajes diferentes dado que por llevar el mismo nombre se puede presentar para confusiones; para insertar código JavaScript a un página #[em web] se puede hacer de las siguientes formas; con código que se agrega dentro de la misma página, con archivos independientes que se almacenan en rutas diferentes a la página y con código referenciado en otras páginas #[em web] ya publicadas en la red #[em internet].
+        p.mb-0 Es importante tener en cuenta que JavaScript y Java son lenguajes diferentes dado que por llevar el mismo nombre se puede presentar para confusiones; para insertar código JavaScript a un página #[em web] se puede hacer de las siguientes formas; con código que se agrega dentro de la misma página, con archivos independientes que se almacenan en rutas diferentes a la página y con código referenciado en otras páginas #[em web] ya publicadas en la red #[em internet].
     
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -103,7 +103,7 @@
       img(src="@/assets/curso/tema3/img04.png")
     .row.justify-content-center.img01(data-aos="flip-up")
       .col-lg-10.BGR09.p-4
-        p.mb-0 El lenguaje Java Script aparece aproximadamente a mediados de los años noventa elaborado por Brendan Eich como una forma de mejorar la experiencia de usuario, puesto que en aquella época la velocidad de #[em internet] era de demasiado lenta y se requería de un lenguaje del lado cliente al momento de realizar una petición #[em web] al año siguiente 1996 se propuso determinar un estándar puesto que cada navegador lo interpreta a su manera y por eso surgió ECMA-262 Ed.1 ES1; la evolución del lenguaje muestra  en la siguiente tabla.
+        p.mb-0 El lenguaje Java Script aparece aproximadamente a mediados de los años noventa elaborado por Brendan Eich como una forma de mejorar la experiencia de usuario, puesto que en aquella época la velocidad de #[em internet] era demasiado lenta y se requería de un lenguaje del lado cliente al momento de realizar una petición #[em web] al año siguiente 1996 se propuso determinar un estándar puesto que cada navegador lo interpreta a su manera y por eso surgió ECMA-262 Ed.1 ES1; la evolución del lenguaje se muestra en la siguiente tabla.
 
     .row.justify-content-center.mb-4
       .col-lg-7
@@ -217,7 +217,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img09.jpg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Con relación a los tipos de datos JavaScript presenta un característica fundamental y es que cuenta con la capacidad  de adaptarse al dato ingresado por el usuario es decir que el tipo de dato es dinámico cuando fué definido con la palabra de reserva var.
+        p.mb-0 Con relación a los tipos de datos JavaScript presenta un característica fundamental y es que cuenta con la capacidad  de adaptarse al dato ingresado por el usuario es decir que el tipo de dato es dinámico cuando fue definido con la palabra de reserva var.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -259,7 +259,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img16.png")
         .col-lg-8(data-aos="fade-left")
-          p Cuando se hace un programa JavaScript las líneas de código se ejecutan de manera secuencial es decir primera, segunda, tercera, cuarta, etc., pero nunca cuarta y luego tercera siempre se enumeran de arriba hacia abajo correspondiendo esto con el flujo del programa; durante este flujo en algún punto de las secuencias es necesario tomar una decisión y es ahí donde se debe utilizar el concepto de condicionales con respuesta positiva o negativa. En otro punto del programa se necesitará realizar a recorridos a estructuras de datos por ejemplo un arreglo y para ello se utilizará el concepto de bucle.
+          p Cuando se hace un programa JavaScript las líneas de código se ejecutan de manera secuencial es decir primera, segunda, tercera, cuarta, etc., pero nunca cuarta y luego tercera siempre se enumeran de arriba hacia abajo correspondiendo esto con el flujo del programa; durante este flujo en algún punto de las secuencias es necesario tomar una decisión y es ahí donde se debe utilizar el concepto de condicionales con respuesta positiva o negativa. En otro punto del programa se necesitará realizar recorridos a estructuras de datos por ejemplo un arreglo y para ello se utilizará el concepto de bucle.
           .row.align-items-center.mb-4
             .col-auto.d-none.d-lg-flex
               img(src="@/assets/curso/temas/img02.png")
@@ -271,7 +271,7 @@
         p.text-white.mb-0 <span style="color:#5573C6 !important">var</span> <span style="color:#84C0E2 !important">edad</span>=<span style="color:#BDCDA6 !important">17</span>;
           <br>
           <br><span style="color:#678F4E !important">//Condicional para saber si es mayor de edad</span>
-          <br><span style="color:#9D76B7 !important">if</span><span style="color:#F4A338 !important">(</span>edad &gt; <span style="color:#BDCDA6 !important">18</span> <span style="color:#F4A338 !important">){</span>
+          <br><span style="color:#9D76B7 !important">if</span><span style="color:#F4A338 !important">(</span>edad &gt;= <span style="color:#BDCDA6 !important">18</span> <span style="color:#F4A338 !important">){</span>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BDCDA6 !important">alert</span><span style="color:#9D76B7 !important">(</span>“<span style="color:#84C0E2 !important">Ya puede solicitar la cédula</span>”<span style="color:#9D76B7 !important">)</span>;
           <br><span style="color:#F4A338 !important">}</span>
       .col-lg-5.col-10.order-lg-2.order-1.BG01.p-4(data-aos="fade-left")
@@ -324,7 +324,7 @@
             <br><span style="color:#5573C6 !important">var</span> <span style="color:#84C0E2 !important">mensaje</span>;
             <br>
             <br><span style="color:#628640 !important">//Condicional para saber si es mayor de edad</span>
-            <br><span style="color:#9D76B7 !important">if</span><span style="color:#F4A338 !important">(</span><span style="color:#84C0E2 !important">edad</span> > <span style="color:#BDCDA6 !important">18</span> <span style="color:#F4A338 !important">){</span>
+            <br><span style="color:#9D76B7 !important">if</span><span style="color:#F4A338 !important">(</span><span style="color:#84C0E2 !important">edad</span> &gt;= <span style="color:#BDCDA6 !important">18</span> <span style="color:#F4A338 !important">){</span>
             <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#84C0E2 !important">mensaje</span>=“<span style="color:#84C0E2 !important">Ya puede solicitar la cédula</span>”;
             <br><span style="color:#F4A338 !important">}</span><span style="color:#9D76B7 !important">else</span><span style="color:#F4A338 !important">{</span>
             <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#84C0E2 !important">mensaje</span>=“<span style="color:#84C0E2 !important">Aún eres menor de edad</span>”;
@@ -335,7 +335,7 @@
         .BG02.p-4
           p.text-white.mb-0 <span style="color:#5573C6 !important">var</span> <span style="color:#84C0E2 !important">edad</span>=<span style="color:#BDCDA6 !important">17</span>;
             <br><span style="color:#628640 !important">//Operador ternario: (condición ? Verdadero : Falso)</span>
-            <br><span style="color:#5573C6 !important">var</span> <span style="color:#84C0E2 !important">mensaje</span> = <span style="color:#84C0E2 !important">edad</span>&gt;<span style="color:#BDCDA6 !important">18</span> ? ‘<span style="color:#84C0E2 !important">Cédula</span>’: ’<span style="color:#84C0E2 !important">Tarjeta Identidad</span>’;
+            <br><span style="color:#5573C6 !important">var</span> <span style="color:#84C0E2 !important">mensaje</span> = <span style="color:#84C0E2 !important">edad</span>&gt;=<span style="color:#BDCDA6 !important">18</span> ? ‘<span style="color:#84C0E2 !important">Cédula</span>’: ’<span style="color:#84C0E2 !important">Tarjeta Identidad</span>’;
 
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
@@ -394,7 +394,7 @@
           img(src="@/assets/curso/tema3/img19.svg")
         .col-lg-8(data-aos="fade-left")
           .bloque-texto-a__texto.p-4
-            p.mb-0 #[b Bucles e Iteraciones], útiles para programar tareas que se convierten en repetitivas en donde se involucran gran cantidad de volumen de datos permitiendo su automatización para realizar un bucle, es necesario tener en cuenta los siguiente conceptos: la condición tal como se vio en los #[em if], esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona un vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador esto es necesario evitarlo.
+            p.mb-0 #[b Bucles e Iteraciones], útiles para programar tareas que se convierten en repetitivas en donde se involucran gran cantidad de volumen de datos permitiendo su automatización; para realizar un bucle, es necesario tener en cuenta los siguiente conceptos: la condición tal como se vio en los #[em if], esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona un vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador, esto es necesario evitarlo.
     
     TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
       .tarjeta.BGR10.p-4(titulo="Bucle <em>While</em>")
@@ -404,7 +404,7 @@
             ul.lista-ul--color
               li
                 <i class="fas fa-layer-group" style="color:#F4A338;"></i>
-                | Antes de entrar en el bucle #[em while], se inicializa la variable i a.
+                p.mb-0 Antes de entrar en el bucle #[em while], se inicializa la variable i.
               li
                 <i class="fas fa-layer-group" style="color:#F4A338;"></i>
                 | Antes de realizar la primera iteración del bucle, se comprueba la condición.
@@ -462,7 +462,7 @@
         h4 Eventos
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-7.mb-lg-0.mb-4
-            p La interacción del usuario con una aplicación, página o sitio #[em web] se establece como evento, por lo tanto un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación, por ejemplo darle clic en un botón o cambiar un valor de una elemento de texto entre otros.
+            p La interacción del usuario con una aplicación, página o sitio #[em web] se establece como evento, por lo tanto un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación, por ejemplo darle clic en un botón o cambiar un valor de un elemento de texto entre otros.
             p.mb-0 Estas acciones se capturan mediante manejadores de eventos ya establecidos y se programan mediante funciones en JavaScript.
           .col-lg-5
             img(src="@/assets/curso/tema3/img28.svg")

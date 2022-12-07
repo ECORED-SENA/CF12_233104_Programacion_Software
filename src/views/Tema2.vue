@@ -93,7 +93,7 @@
       img(src="@/assets/curso/tema2/img05.png")
     .row.justify-content-center.img01(data-aos="flip-up")
       .col-lg-10.BGR09.p-4
-        p.mb-0 La estructura de CSS3 corresponde al conjunto de reglas recopiladas en un archivo; una regla a su vez corresponde a la utilización de algún tipo de selector como los que ya vimos en puntos anteriores y una o varias declaraciones separadas por punto y una (;)  la declaración se conforma de una propiedad y un valor; dichas declaraciones se pueden escribir de manera directa en el #[em tag] de HTML deseado utilizando el atributo #[em style] y entre comillas la propiedad los dos puntos y su valor. Ejemplo de estructura:
+        p.mb-0 La estructura de CSS3 corresponde al conjunto de reglas recopiladas en un archivo; una regla a su vez corresponde a la utilización de algún tipo de selector como los que ya vimos en puntos anteriores y una o varias declaraciones separadas por punto y coma (;)  la declaración se conforma de una propiedad y un valor; dichas declaraciones se pueden escribir de manera directa en el #[em tag] de HTML deseado utilizando el atributo #[em style] y entre comillas la propiedad los dos puntos y su valor. Ejemplo de estructura:
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-8
